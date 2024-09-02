@@ -99,5 +99,15 @@ p {
  .navigation-links a {
      margin: 10px;
  }
+
+ .primary-link {
+     border-radius: 1px;
+     padding: 10px 7px;
+     text-decoration: none;
+     text-transform: capitalize;
+     background: var(--primary-color);
+     box-shadow: var(--box-shadow);
+     color: white;
+ }
  
 }
