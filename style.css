@@ -79,7 +79,7 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 28px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ p {
 
 @media(max-width:576px){
     p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
 .navigation-links{
@@ -102,12 +102,33 @@ p {
 
  .primary-link {
      border-radius: 1px;
-     padding: 10px 7px;
+     padding: 3px 1px;
      text-decoration: none;
      text-transform: capitalize;
      background: var(--primary-color);
      box-shadow: var(--box-shadow);
      color: white;
+ }
+
+ .secondary-link {
+     border-radius: 1px;
+     padding: 5px 3px;
+     text-decoration: none;
+     text-transform: capitalize;
+     color: var(--primary-color);
+     border: 1px solid var(--primary-color);
+ }
+
+ h1{
+    font-size: 36px ;
+ }
+
+ h2 {
+    font-size: 24px;
+ }
+
+ .text-center {
+    font-size: 18px;
  }
  
 }
